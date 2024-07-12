@@ -1,0 +1,22 @@
+/* Navbar.css */
+.navbar-container {
+    background-color: #333; /* Your background color */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-container.mobile-menu-open {
+    height: auto;
+  }
+  
+  .navbar-container.mobile-menu-open .mobile-menu-hidden {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mobile-menu-hidden {
+    display: none;
+  }
+  
+  
